@@ -1,7 +1,15 @@
+
+
+
 body {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+.Screen
+{
+	display: none;
 }
 /* .main{
     height: 80vh;
@@ -9,7 +17,7 @@ body {
 
 .section1 {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('/images/hero.png');
+		url('images/hero.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: center;
@@ -420,8 +428,21 @@ form button {
 }
 
 
+
  /* mobile screen */
 @media screen and (max-width:767px)  {
+
+	body {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	
+main{
+	display: none;
+
+}
 
 main{
 	width: 100%;
