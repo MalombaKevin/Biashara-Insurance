@@ -1,0 +1,873 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* .main{
+    height: 80vh;
+} */
+
+.section1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('/images/hero.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: yellow;
+	height: 80vh;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+}
+
+.brand {
+	display: flex;
+	justify-content: space-around;
+}
+
+.heading {
+	display: flex;
+	justify-content: space-around;
+	margin-top: -10px;
+	color: white;
+	font-weight: bolder;
+}
+
+.auth {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.navLinks {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.navLinks > a {
+	margin-left: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.authbutton > button {
+	height: 5vh;
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 8px;
+	margin-left: 10px;
+	padding: 5px;
+	height: 40px;
+}
+
+.arrow {
+	margin-top: 100px;
+}
+
+.brandText {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 70px;
+}
+
+.brandText2 {
+	color: white;
+	text-align: center;
+	/* font-size: 25px; */
+	margin-top: 36px;
+}
+
+.quickButtons {
+	margin-top: 36px;
+	text-align: center;
+}
+
+.quote {
+	height: 5vh;
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: small;
+	border-radius: 15px;
+	width: 120px;
+	padding: 7px 7px;
+}
+
+.learn {
+	height: 5vh;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: small;
+	border-radius: 15px;
+	width: 110px;
+}
+
+.mantras {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 50px;
+	/* background-color: yellow; */
+}
+
+.mantra {
+	background-color: white;
+	border: 1px solid white;
+	padding: 30px;
+	height: 100px;
+}
+
+.mantra1 {
+	background-color: blueviolet;
+	padding: 30px;
+	height: 100px;
+	color: white;
+}
+
+.colorRegion {
+	background-color: rgb(227, 238, 238);
+	height: 150px;
+}
+.mantra > ion-icon {
+	font-size: xx-large;
+	color: blueviolet;
+}
+
+.mantra1 > ion-icon {
+	font-size: xx-large;
+	color: white;
+}
+
+.title1 {
+	font-size: large;
+	font-weight: bold;
+}
+
+.title2 {
+	font-size: large;
+	font-weight: bold;
+}
+
+.mantraDetails {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	height: 40vh;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.iconsDetails {
+	font-size: 60px;
+	color: blueviolet;
+	text-align: center;
+}
+.detailHeading {
+	font-weight: bold;
+}
+
+.industry {
+	height: auto;
+	background-color: rgb(227, 238, 238);
+	padding-top: 50px;
+}
+
+.industryIntro {
+	text-align: center;
+}
+
+.feedback {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.feedbackImage {
+	width: 120px;
+}
+
+.user1 {
+	border: 1px solid white;
+	padding: 20px;
+	background-color: white;
+}
+
+.star {
+	color: gold;
+	font-size: large;
+}
+
+.partners {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	gap: 115px;
+}
+.partner1 > img {
+	width: 60px;
+}
+
+.subscribe {
+	display: flex;
+	justify-content: space-between;
+	gap: 10%;
+	border: none;
+	margin: auto;
+	width: 70%;
+	height: 5%;
+	padding: 2%;
+	background: linear-gradient(to right, rgb(38, 3, 66), rgb(132, 127, 204));
+	/* margin-bottom: 100px; */
+}
+
+.subscribeText {
+	color: white;
+	font-weight: bolder;
+	font-size: large;
+}
+
+.subscribeMail input {
+	width: 60%;
+	height: 50%;
+	gap: 0;
+	outline: none;
+	margin-right: 30px;
+}
+
+.subscribeMail button {
+	gap: none;
+	outline: none;
+	margin-left: -39px;
+	background-color: blueviolet;
+	border: none;
+	color: white;
+	height: 60%;
+}
+
+.pricing {
+	height: 120vh;
+	background-color: rgb(227, 238, 238);
+	padding-top: 100px;
+}
+
+.pricingHeading {
+	text-align: center;
+}
+
+.pricingBoard {
+	display: flex;
+	justify-content: center;
+	gap: 1px;
+	margin-top: 100px;
+}
+
+.free,
+.premium {
+	background-color: white;
+	border: 1px solid rgb(171, 148, 192);
+	padding: 25px;
+	text-align: center;
+	border-radius: 5px;
+	height: 60vh;
+}
+
+.standard {
+	background-color: rgb(3, 3, 39);
+	border: 1px solid rgb(171, 148, 192);
+	padding: 25px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	height: 59vh;
+	margin-top: -20px;
+}
+
+.pricingBoard button {
+	background-color: blueviolet;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	width: 90%;
+}
+
+.pricingBoard h1 {
+	color: rgb(174, 104, 243);
+}
+
+.pricingBoard sup {
+	font-size: medium;
+}
+
+.globalReach {
+	display: flex;
+	justify-content: center;
+	gap: 3em;
+}
+.globe {
+	background-color: rgb(38, 38, 51);
+	height: 80vh;
+}
+.globalReach img {
+	padding-top: 80px;
+	width: 400px;
+	margin-left: 5em;
+}
+
+.globalReach .text {
+	padding-top: 80px;
+	width: 400px;
+	color: white;
+	margin-left: 5em;
+}
+
+.book {
+	display: flex;
+	justify-content: center;
+	margin-top: -200px;
+}
+
+.book img {
+	height: 60vh;
+	width: 250px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: white;
+	padding-left: 50px;
+	padding-top: 20px;
+	height: 57vh;
+	width: 400px;
+	gap: 10px;
+}
+
+form .heading {
+	text-align: center;
+	padding-left: 100px;
+	font-weight: bold;
+	font-size: larger;
+	color: black;
+}
+
+form input
+{
+	width: 350px;
+	height: 4vh;
+	color: black;
+}
+
+
+form select {
+	width: 358px;
+	height: 5vh;
+	color: black;
+}
+
+form button {
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	padding: 10px;
+	width: 90%;
+	border-radius: 5px;
+	margin-top: 2%;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+
+.contact button {
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	padding: 10px;
+	width: 150%;
+	border-radius: 5px;
+}
+
+.button {
+	margin-top: 30px;
+	
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	margin-left: -80px;
+	gap: 80px;	
+	background-color: white;
+}
+
+
+ /* mobile screen */
+@media screen and (max-width:767px)  {
+
+main{
+	width: 100%;
+
+}
+
+	
+
+
+.section1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('/images/hero.png');
+	background-size: 200% 200%;	
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60vh;
+	width: 100%;
+
+}
+
+.navbar {
+/* text-align: center; */
+	
+}
+
+.brand {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+	
+}
+
+.heading {
+	color: white;
+	font-weight: bolder;
+	margin-top: -20px;
+}
+
+.auth {
+	
+}
+
+.navLinks {
+	margin-top: -10%;
+}
+.navLinks > a {
+	/* margin-left: 20px; */
+	text-decoration: none;
+	color: white;
+}
+
+.authbutton > button {
+	height: 5vh;
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 8px;
+	margin-left: 10px;
+	padding: 5px;
+	height: 40px;
+}
+
+.arrow {
+	margin-top: 100px;
+}
+
+.brandText {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 70px;
+}
+
+.brandText2 {
+	color: white;
+	text-align: center;
+	/* font-size: 25px; */
+	margin-top: 36px;
+}
+
+.quickButtons {
+	margin-top: 36px;
+	text-align: center;
+}
+
+.quote {
+	height: 5vh;
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: small;
+	border-radius: 15px;
+	width: 120px;
+	padding: 7px 7px;
+}
+
+.learn {
+	height: 5vh;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: small;
+	border-radius: 15px;
+	width: 110px;
+}
+
+.mantras {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	/* margin-top: 50px; */
+	height: 60vh;
+	/* background-color: yellow; */
+}
+
+.mantra {
+	background-color: white;
+	border: 1px solid white;
+	padding: 30px;
+	height: 100px;
+}
+
+.mantra1 {
+	background-color: blueviolet;
+	padding: 30px;
+	height: 100px;
+	color: white;
+}
+
+.colorRegion {
+	background-color: rgb(227, 238, 238);
+	height: 150px;
+}
+.mantra > ion-icon {
+	font-size: xx-large;
+	color: blueviolet;
+}
+
+.mantra1 > ion-icon {
+	font-size: xx-large;
+	color: white;
+}
+
+.title1 {
+	font-size: large;
+	font-weight: bold;
+}
+
+.title2 {
+	font-size: large;
+	font-weight: bold;
+}
+
+.mantraDetails {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	height: 100vh;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.iconsDetails {
+	font-size: 60px;
+	color: blueviolet;
+	text-align: center;
+}
+.detailHeading {
+	font-weight: bold;
+}
+
+.industry {
+	height: auto;
+	background-color: rgb(227, 238, 238);
+	padding-top: 50px;
+}
+
+.industryIntro {
+	text-align: center;
+}
+
+.feedback {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.feedbackImage {
+	width: 120px;
+}
+
+.user1 {
+	border: 1px solid white;
+	padding: 20px;
+	background-color: white;
+}
+
+.star {
+	color: gold;
+	font-size: large;
+}
+
+.partners {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	/* width: 100; */
+}
+.partner1 > img {
+	width: 100px;
+}
+
+.subscribe {
+	display: flex;
+	justify-content: space-between;
+	gap: 10%;
+	border: none;
+	margin: auto;
+	width: 70%;
+	height: 5%;
+	padding: 2%;
+	background: linear-gradient(to right, rgb(38, 3, 66), rgb(132, 127, 204));
+	/* margin-bottom: 100px; */
+}
+
+.subscribeText {
+	color: white;
+	font-weight: bolder;
+	font-size: large;
+}
+
+.subscribeMail input {
+	width: 60%;
+	height: 50%;
+	gap: 0;
+	outline: none;
+	margin-right: 30px;
+}
+
+.subscribeMail button {
+	gap: none;
+	outline: none;
+	margin-left: -39px;
+	background-color: blueviolet;
+	border: none;
+	color: white;
+	height: 60%;
+}
+
+.pricing {
+	height: 120vh;
+	background-color: rgb(227, 238, 238);
+	padding-top: 100px;
+	width: 100%; 
+}
+
+.pricingHeading {
+	text-align: center;
+}
+
+.pricingBoard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	margin-top: 300px;
+	height: 100vh;
+}
+
+.free,
+.premium {
+	background-color: white;
+	border: 1px solid rgb(171, 148, 192);
+	padding: 25px;
+	text-align: center;
+	border-radius: 5px;
+	height: 60vh;
+}
+
+.standard {
+	background-color: rgb(3, 3, 39);
+	border: 1px solid rgb(171, 148, 192);
+	padding: 25px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	height: 59vh;
+	margin-top: -20px;
+}
+
+.pricingBoard button {
+	background-color: blueviolet;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	width: 90%;
+}
+
+.pricingBoard h1 {
+	color: rgb(174, 104, 243);
+}
+
+.pricingBoard sup {
+	font-size: medium;
+}
+
+.globalReach {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* flex-wrap: wrap; */
+	height: 60vh;
+	margin-top: 500px;
+	width: 100%;
+}
+.globe {
+	background-color: rgb(38, 38, 51);
+	height: 100vh;
+	width: 100%;
+}
+.globalReach img {
+	padding-top: 80px;
+	width: 100px;
+	/* margin-left: 5em; */
+}
+
+.globalReach .text {
+	/* padding-top: 80px; */
+	/* width: 400px; */
+	color: white;
+	margin: auto;
+	/* margin-left: 5em; */
+}
+
+.book {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top:200px;
+}
+
+.book img {
+	height: 20vh;
+	width: 20vh;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: white;
+	/* padding-left: 50px; */
+	padding-top: 20px;
+	/* height: 57vh; */
+	/* width: 300px; */
+	/* gap: 10px; */
+	width: 100%; 
+	margin: auto;
+}
+
+form .heading {
+	text-align: center;
+	/* padding-left: 50px; */
+	font-weight: bold;
+	font-size: larger;
+	color: black;
+}
+
+form input
+{
+	/* width: 350px; */
+	height: 4vh;
+	color: black;
+}
+
+
+form select {
+	width: 358px;
+	height: 5vh;
+	color: black;
+}
+
+form button {
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	/* padding: 10px; */
+	width: 90%;
+	border-radius: 5px;
+	margin-top: 2%;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 70px;
+}
+
+.contact button {
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	/* padding: 10px; */
+	/* width: 150%; */
+	border-radius: 5px;
+}
+
+.button {
+	margin-top: 30px;
+	
+}
+
+.footer{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	flex-wrap: wrap;
+	margin: auto;
+	/* padding: 30px; */
+	/* margin-left: -80px; */
+	background-color: white;
+}
+
+
+	
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+	body{
+	background-color:blue;
+	}
+	
+}
