@@ -4,13 +4,15 @@
 body {
 	padding: 0;
 	margin: 0;
+	width: 100%;
+	/* height: auto; */
 	box-sizing: border-box;
 }
-
-.Screen
+/* 
+main
 {
-	display: none;
-}
+	
+} */
 /* .main{
     height: 80vh;
 } */
@@ -200,6 +202,7 @@ body {
 	gap: 100px;
 	text-align: center;
 	padding-top: 50px;
+	width:100% ;
 }
 
 .feedbackImage {
@@ -455,7 +458,7 @@ main{
 .section1 {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url('images/hero.png');
-	background-size: 200% 200%;	
+	background-size: 100% 100%;	
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 60vh;
@@ -471,10 +474,12 @@ main{
 .brand {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	
-	
-	
+	align-items: center;	
+
+}
+
+.brandText h1 {
+	font-size: medium;
 }
 
 .heading {
@@ -560,12 +565,12 @@ main{
 	align-items: center;
 	gap: 20px;
 	/* margin-top: 50px; */
-	height: 60vh;
+	height: 100vh;
 	/* background-color: yellow; */
 }
 
 .mantra {
-	background-color: white;
+	background-color: rgb(227, 238, 238);
 	border: 1px solid white;
 	padding: 30px;
 	height: 100px;
@@ -578,10 +583,11 @@ main{
 	color: white;
 }
 
-.colorRegion {
+/* .colorRegion {
 	background-color: rgb(227, 238, 238);
 	height: 150px;
-}
+	width:100% 
+} */
 .mantra > ion-icon {
 	font-size: xx-large;
 	color: blueviolet;
@@ -608,7 +614,7 @@ main{
 	align-items: center;
 	gap: 30px;
 	height: 100vh;
-	margin-top: 100px;
+	margin-top: 550px;
 	text-align: center;
 }
 
@@ -659,10 +665,11 @@ main{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	gap: 10px;
 	/* width: 100; */
 }
 .partner1 > img {
-	width: 100px;
+	width: 40px;
 }
 
 .subscribe {
@@ -707,6 +714,8 @@ main{
 	background-color: rgb(227, 238, 238);
 	padding-top: 100px;
 	width: 100%; 
+	height: 158vh;
+	padding-bottom: 20px;
 }
 
 .pricingHeading {
@@ -714,13 +723,15 @@ main{
 }
 
 .pricingBoard {
+	background-color: rgb(227, 238, 238);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 16px;
-	margin-top: 300px;
-	height: 100vh;
+	margin-top: -5px;
+	
+	
 }
 
 .free,
@@ -731,6 +742,8 @@ main{
 	text-align: center;
 	border-radius: 5px;
 	height: 60vh;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .standard {
@@ -743,7 +756,7 @@ main{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	height: 59vh;
-	margin-top: -20px;
+	margin-top: 10px;
 }
 
 .pricingBoard button {
@@ -776,6 +789,7 @@ main{
 	background-color: rgb(38, 38, 51);
 	height: 100vh;
 	width: 100%;
+	margin-top: -200pxx;
 }
 .globalReach img {
 	padding-top: 80px;
@@ -885,10 +899,3 @@ form button {
 	
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
-
-	body{
-	background-color:blue;
-	}
-	
-}
