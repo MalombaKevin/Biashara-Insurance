@@ -1,6 +1,10 @@
-
-
-
+ /* mobile screen */
+ @media screen and (min-width:768px)  {
+	.authMobile{
+		display: none;
+	}
+	
+ }
 body {
 	padding: 0;
 	margin: 0;
@@ -51,6 +55,7 @@ main
 	justify-content: space-between;
 	color: white;
 }
+
 
 .navLinks {
 	display: flex;
@@ -463,11 +468,14 @@ main{
 	background-repeat: no-repeat;
 	height: 60vh;
 	width: 100%;
+	background-color: rgb(227, 238, 238);
 
 }
 
 .navbar {
-/* text-align: center; */
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 	
 }
 
@@ -486,21 +494,28 @@ main{
 	color: white;
 	font-weight: bolder;
 	margin-top: -20px;
+	margin-right: 50px;
 }
 
-.auth {
+/* .auth {
 	
-}
+} */
 
 .navLinks {
-	margin-top: -10%;
+	margin-top: -5%;
+	margin-right: 85px;
 }
 .navLinks > a {
 	/* margin-left: 20px; */
 	text-decoration: none;
 	color: white;
 }
-
+.auth .login {
+	display: none;
+}
+.authMobile{
+	color: black;
+}
 .authbutton > button {
 	height: 5vh;
 	background-color: blueviolet;
@@ -508,9 +523,10 @@ main{
 	border: none;
 	border-radius: 5px;
 	margin-top: 8px;
-	margin-left: 10px;
-	padding: 5px;
-	height: 40px;
+	margin-right: 50px;
+	padding: 2px;
+	height: 20px;
+	font-size: small;
 }
 
 .arrow {
@@ -521,14 +537,15 @@ main{
 	color: white;
 	text-align: center;
 	font-size: 25px;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .brandText2 {
 	color: white;
 	text-align: center;
+	font-size: small;
 	/* font-size: 25px; */
-	margin-top: 36px;
+	margin-top: 20px;
 }
 
 .quickButtons {
@@ -567,11 +584,11 @@ main{
 	/* margin-top: 50px; */
 	height: 100vh;
 	/* background-color: yellow; */
+	background-color: rgb(227, 238, 238);
 }
 
 .mantra {
-	background-color: rgb(227, 238, 238);
-	border: 1px solid white;
+		border: 1px solid white;
 	padding: 30px;
 	height: 100px;
 }
@@ -614,7 +631,7 @@ main{
 	align-items: center;
 	gap: 30px;
 	height: 100vh;
-	margin-top: 550px;
+	margin-top: 380px;
 	text-align: center;
 }
 
@@ -898,4 +915,6 @@ form button {
 
 	
 }
+
+
 
