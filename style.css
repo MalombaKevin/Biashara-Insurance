@@ -3,7 +3,9 @@
 	.authMobile{
 		display: none;
 	}
-	
+	.wahome{
+		display: none;
+	}
  }
 body {
 	padding: 0;
